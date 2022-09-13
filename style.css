@@ -125,5 +125,31 @@
 .pricingPlan_card .card:hover .img_dod_card{
     transform: translate(23px,23px);
 }
+.pt-100{
+    padding-top:100px !important ;
+}
 
+.mt-100{
+    margin-top: 100px !important;
+}
+.devise{
+    margin-top: 200px;
+    background-image: -webkit-linear-gradient(0deg,#6c19f6 0%,#f9218d 100%);
+}
+.circle_animate{
+    width: 40px;
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    animation-name: circle_animate;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
+@keyframes circle_animate{
+    0%{transform: scale(1);}
+    50%{ transform: scale(1.6);}
+    100%{ transform: scale(1);}
+}
